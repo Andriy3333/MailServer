@@ -302,8 +302,6 @@ public class MyPOPServer extends Thread {
                     }
                 }
 
-                // End of message
-                socketOut.println(".");
 
             } catch (IndexOutOfBoundsException e) {
                 socketOut.println("-ERR No such message");
